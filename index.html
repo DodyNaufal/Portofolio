@@ -14,19 +14,19 @@
     <!-- NAVIGATION BAR -->
     <nav>
        
-        <div class="logo">
+        <a href="#home"><div class="logo">
             Dody Naufal
-        </div>
+        </div></a>
         <div class="wrap-menu">
-            <div class="menu">Beranda</div>
-            <div class="menu">Portofolio</div>
-            <div class="menu" > Kontak</div>
+            <a href="#home"><div class="menu">Beranda</div></a>
+            <a href="#portofolio"><div class="menu">Portofolio</div></a>
+            <a href="#kontak"><div class="menu" > Kontak</div></a>
         </div>
     </nav>
     <!-- END NAVIGATION BAR -->
     
     <!-- hero section -->
-    <sesction class="hero-section">
+    <sesction class="hero-section" id="home">
         <div class="hero-information">
             <h3>Haii Semuaa 👋 saya adalah </h3>
               <h1>Dody Naufal</h1>
@@ -47,7 +47,7 @@
     <!-- end sction -->
    
     <!-- section tengah -->
-    <section class="bagian-tengah">
+    <section class="bagian-tengah" id="portofolio" >
         <div class="kata-awal">
            <h1>Hobi</h1>
            <p class="kata-awal-p">Berikut adalah hobi saya selama ini</p> 
@@ -78,20 +78,20 @@
     </section>
     <!-- end section-tengah -->
 
-    <section class="section-akhir" id="section_akhir">
+    <section class="section-akhir" id="kontak">
         <div class="judul">
             <h1>KONTAK</h1>
             <P class="judul-p">Hubugi Saya Jika Anda Tertarik Berkolaborasi Dengan Saya</P>
         </div>
         <div class="form-input">
-            <form action="img/dody.jpeg">
+            <form action="img/dody.jpeg" autocomplete="off">
            <span class="nama-email"> 
             <input type="text" class="input_nama"  placeholder="Ketikan Nama Anda" required> 
             <input type="text" class="input_email" placeholder="Ketikan Email Anda" required> 
            </span>
            <span class="pesan">
             <input type="text" class="input_pesan" placeholder="Ketikan Pesan Anda" required> <br><br>
-            <input type="button" class="kirim_pesan" value="Kirim Pesan">     
+            <button class="kirim_pesan">kirim pesan</button>
         </span>
         </form>
         <div class="sosial-media">
